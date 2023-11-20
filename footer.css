@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    align-items: end;
+    height: 100vh;
+    display: flex;
+    background-image: url(./images/img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    padding: 20px 20px 20px 0px;
+   
+}
+footer #left{
+    width: 60%;
+    display: flex;
+
+}
+footer #right{
+    width: 40%;
+    display: flex;
+    border-left: 2px solid gray;
+}
+ul{
+    list-style: none;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer h3{
+    color: grey;
+}
